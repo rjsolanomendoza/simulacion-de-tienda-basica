@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islander Roots Shop</title>
+    <link rel="shortcut icon" href="./imagenes/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <h2 class="logo">Artesanías Islander Roots Shop</h2>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#tienda">Tienda</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a id="btnCarrito" href="#"> Carrito (<span id="cantCarrito">0</span>)</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- INICIO -->
+    <section id="inicio" class="hero">
+        <div class="hero-text">
+            <h1>Bienvenido a Nuestra Tienda</h1>
+            <p>Islander Roots Shop es una tienda dedicada a preservar y compartir la riqueza cultural del Caribe a través de artesanías únicas hechas a mano. Cada pieza es elaborada por artesanos locales utilizando técnicas tradicionales, materiales naturales y diseños que representan nuestra identidad, historia y colores.
+Explora una colección auténtica llena de raíces, tradición y creatividad.</p>
+
+            <h3>Presentado por:</h3>
+            <ul class="integrantes">
+                <li>Faith Newball Archbold</li>
+
+            </ul>
+
+            <a href="dofa.html" class="btn">Ver DOFA</a>
+        </div>
+        <img src="images/hero.jpg" class="hero-img" alt="">
+    </section>
+
+    <!-- TIENDA -->
+    <section id="tienda" class="tienda-section">
+        <h2>Nuestros Productos</h2>
+
+        <div class="grid-productos">
+
+            <div class="product-card">
+                <img src="./imagenes/producto1.jpeg" alt="">
+                <h3>Producto 1</h3>
+                <p> </p>
+                <p>$45.000</p>
+                <button class="btn-buy" data-nombre="Producto 1" data-precio="45000">Agregar al carrito</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./imagenes/producto2.jpeg" alt="">
+                <h3>Producto 2</h3>
+                <p>$30.000</p>
+                <button class="btn-buy" data-nombre="producto 2" data-precio="30000">Agregar al carrito</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./imagenes/producto3.jpeg" alt="">
+                <h3>Producto 3</h3>
+                <p>$28.000</p>
+                <button class="btn-buy" data-nombre="Producto 3" data-precio="35000">Agregar al carrito</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./imagenes/producto4.jpeg" alt="">
+                <h3>Producto 4</h3>
+                <p>$35.000</p>
+                <button class="btn-buy" data-nombre="Producto 4" data-precio="25000">Agregar al carrito</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./imagenes/producto5.jpeg" alt="">
+                <h3>Producto 5</h3>
+                <p>$30.000</p>
+                <button class="btn-buy" data-nombre="Producto 5" data-precio="30000">Agregar al carrito</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./imagenes/producto6.jpeg" alt="">
+                <h3>Producto 6</h3>
+                <p>$35.000</p>
+                <button class="btn-buy" data-nombre="Producto 6" data-precio="35000">Agregar al carrito</button>
+            </div>
+            
+            <div class="product-card">
+                <img src="./imagenes/producto7.jpeg" alt="">
+                <h3>Producto 7</h3>
+                <p>$30.000</p>
+                <button class="btn-buy" data-nombre="Producto 7" data-precio="30000">Agregar al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="./imagenes/producto8.jpeg" alt="">
+                <h3>Producto 8</h3>
+                <p>$20.000</p>
+                <button class="btn-buy" data-nombre="Producto 8" data-precio="20000">Agregar al carrito</button>
+            </div>
+            <div class="product-card">
+                <img src="./imagenes/producto9.jpeg" alt="">
+                <h3>Producto 9</h3>
+                <p>$40.000</p>
+                <button class="btn-buy" data-nombre="Producto 9" data-precio="40000">Agregar al carrito</button>   
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contact-section">
+        <h2>Contáctanos</h2>
+
+        <p>Email: islanderrootsshop@gmail.com</p>
+        <p>Instagram: Artesanías Islander Roots Shop</p>
+        <p>Facebook: Islander Roots Shop</p>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo" required>
+            <textarea placeholder="Escribe tu mensaje"></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+        <!-- MÉTODOS DE PAGO -->
+    <section id="pagos" class="payment-section">
+        <h2>Métodos de Pago</h2>
+
+        <p>Puedes realizar tus compras utilizando cualquiera de los siguientes métodos de pago.</p>
+
+        <div class="payment-grid">
+
+            <div class="payment-card">
+                <img src="./imagenes/paypal.jpg" alt="PayPal">
+                <h3>PayPal</h3>
+                <button class="btn-pagar" data-metodo="PayPal">Pagar con PayPal</button>
+            </div>
+
+            <div class="payment-card">
+                <img src="./imagenes/Nequi.webp" alt="Nequi">
+                <h3>Nequi</h3>
+                <button class="btn-pagar" data-metodo="Nequi">Pagar con Nequi</button>
+            </div>
+
+            <div class="payment-card">
+                <img src="./imagenes/Bancolombia1.jpg" alt="Bancolombia" >
+                <h3>Bancolombia</h3>
+                <button class="btn-pagar" data-metodo="Bancolombia">Pagar por Transferencia</button>
+            </div>
+
+            <div class="payment-card">
+                <img src="./imagenes/tarjeta.jpeg" alt="Tarjeta">
+                <h3>Tarjeta de Crédito</h3>
+                <button class="btn-pagar" data-metodo="Tarjeta de Crédito">Pagar con Tarjeta</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>© 2025 Mi Tienda - Proyecto Final</p>
+    </footer>
+
+       
+    <div id="modalPago" class="modal">
+        <div class="modal-content">
+            <span id="cerrarModal" class="cerrar">&times;</span>
+
+            <h2 id="tituloMetodo"></h2>
+
+            
+            <div id="contenidoPago"></div>
+
+            <button id="btnConfirmarPago" class="btn">Confirmar pago</button>
+        </div>
+    </div>
+
+        <!-- CARRITO -->
+    <div id="modalCarrito" class="modal">
+        <div class="modal-content">
+            <span id="cerrarCarrito" class="cerrar">&times;</span>
+            <h2>Carrito de Compras</h2>
+
+            <div id="listaCarrito"></div>
+
+            <h3 id="totalCarrito">Total: $0</h3>
+
+            <h3>Seleccionar método de pago</h3>
+            <select id="metodoPagoCarrito" class="select-pago">
+                <option value="">-- Selecciona un método --</option>
+                <option value="PayPal">PayPal</option>
+                <option value="Nequi">Nequi</option>
+                <option value="Bancolombia">Bancolombia</option>
+                <option value="Tarjeta de Crédito">Tarjeta de Crédito</option>
+            </select>
+
+            <br><br>
+
+            <button id="vaciarCarritoBtn" class="btn">Vaciar carrito</button>
+            <button id="irAPagar" class="btn">Ir a pagar</button>
+
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
